@@ -40,6 +40,7 @@ body {
 
 .prog > img {
     width: 50px;
+    height: 50px;
     cursor: pointer;
 }
 
@@ -103,6 +104,7 @@ body {
     width: 700px;
     height: 500px;
     background-image: url(../img/windowBG.svg);
+    background-size: cover;
     padding: 7px;
     display: flex;
     flex-direction: column;
@@ -143,13 +145,15 @@ body {
 .content {
     background-image: url(../img/windowInner.svg);
     background-size: cover;
-    width: 684px;
-    height: 420px;
+    width: 100%;
+    height: 100%;
     padding: 5px;
 }
 
 .edit {
     display: flex;
+    height: 30px;
+    line-height: 30px;
 }
 
 .opt {
